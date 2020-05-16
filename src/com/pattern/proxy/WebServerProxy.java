@@ -13,6 +13,7 @@ public class WebServerProxy implements IServer{
     public void handRequest(String request) {
         // security check
         // authentication
+        // or balance load ?
         // bla...bla...bla...
         for (WebServer server : servers) {
             if (server.isAvailable()) {
